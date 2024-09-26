@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Hey Mimi</h1>
+        <h3 class="h2">We will play a little game now... are you ready?</h3>
+      </div>
+      <div class="gif_container">
+        <img
+          src="hey1.gif"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+        <button
+          class="btn"
+          id="noButton"
+          onclick="noButton()"
+        >
+          No
+        </button>
+        <script>
+            function nextPage() {
+              window.location.href = "index2.html";
+            }
+  
+            function noButton() {
+              alert('Mimi 🥺 click yes 🥺🥺🥺🥺');
+            }
+          </script>
+      </div>
+    </div>
+
+  </body>
+</html>
